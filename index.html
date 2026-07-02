@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KubeAgent-SRE | Autonomous AI</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 2rem; color: #333; }
+        h1 { color: #2c3e50; }
+        .tag { background: #e0f7fa; color: #006064; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.85rem; font-weight: bold; margin-right: 5px;}
+        .video-container { margin: 2rem 0; padding-bottom: 56.25%; position: relative; height: 0; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .code-block { background: #1e1e1e; color: #d4d4d4; padding: 1rem; border-radius: 8px; overflow-x: auto; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>🤖 KubeAgent: Autonomous Site Reliability Engineer</h1>
+    <p>
+        <span class="tag">LangGraph</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Llama-3</span>
+        <span class="tag">Python</span>
+    </p>
+    <p>A multi-agent orchestrated system that autonomously diagnoses and remediates Kubernetes cluster failures with Human-in-the-Loop safety gates.</p>
+    
+    <h2>📺 Live Demo</h2>
+    <!-- Replace this with your actual Loom or YouTube embed code -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h2>System Architecture</h2>
+    <ul>
+        <li><strong>Investigator Node:</strong> Diagnoses errors via read-only K8s events and logs.</li>
+        <li><strong>Planner Node:</strong> Uses Pydantic to draft strict JSON remediation plans.</li>
+        <li><strong>Gatekeeper:</strong> Pauses for human approval before mutating production.</li>
+        <li><strong>Executor:</strong> Applies patches (Scaling, Restarting, Image Updates) to the K8s API.</li>
+    </ul>
+
+    <h2>View the Source Code</h2>
+    <p>Check out the full repository and evaluation benchmarks on my <a href="https://github.com/Ashok9398/ai-sre-agent">GitHub</a>.</p>
+</body>
+</html>
